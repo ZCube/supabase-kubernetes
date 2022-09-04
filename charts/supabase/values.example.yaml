@@ -1,5 +1,9 @@
 database:
   postgresqlPassword: MY_SUPER_EXAMPLE_HARD_PASSWORD      
+  image:
+    registry: ghcr.io
+    repository: zcube/supabase-bitnami-compat-postgresql
+    tag: 14
 
 studio:
   enable: true
